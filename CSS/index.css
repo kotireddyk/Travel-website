@@ -17,7 +17,7 @@ body
 
 #header1
 {
-	width: 331px;
+	width: 297px;
 	height: 72px;
 	float: left;
 	clear: both;
@@ -26,23 +26,22 @@ body
 #header2
 {
 	height: 72px;
-	float:left;
 }
 
 #header3
 {
-	margin-top: 153px !important;
-	position: absolute;
+	bottom: -33px;
+	position: relative;
 }
 
 #header3 li:nth-child(odd)
 {
-    border-bottom: 5px solid #6017a3 !important;
+    border-bottom: 5px solid #6017a3;
 }
 
 #header3 li:nth-child(even)
 {
-    border-bottom: 5px solid #8038c2 !important;
+    border-bottom: 5px solid #8038c2;
 }
 
 #header3 li
@@ -324,7 +323,7 @@ a
 	margin-left: 334px;
 }
 
-#features ul, #heading ul, #header3 ul
+#features ul, #heading ul
 {
 	margin-top: -32px;
 }
