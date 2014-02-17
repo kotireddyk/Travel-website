@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  /*$("#header3 li").on("mouseenter",function(){
+  $("#header3 li").on("mouseenter",function(){
 		$(this).css( {"background":"#ffffff", "top" : "-11px"});
 	});
   $("#header3 li").on("mouseleave",function(){
@@ -9,6 +9,5 @@ $(document).ready(function(){
     "background" : "-moz-linear-gradient(#ffffff, #eaeaea)",
     "background" : "linear-gradient(#ffffff, #eaeaea)"});
 	});
-*/
-alert("hello");
+
 });
